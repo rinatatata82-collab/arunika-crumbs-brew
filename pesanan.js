@@ -191,6 +191,9 @@ function openPicker() {
         var t = document.getElementById('jenis-pesanan'); if (t) t.scrollIntoView({ behavior: 'smooth', block: 'center' });
       } else location.href = 'keranjang.html#jenis-pesanan';
     }
+    }); 
+      document.addEventListener('change', function (e) {
+    if (e.target && e.target.id === 'order-table') order.set({ table: e.target.value });
   });
   window.addEventListener('arunika:order', render);
   window.addEventListener('arunika:lang', render);
