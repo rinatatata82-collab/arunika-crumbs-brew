@@ -1,0 +1,26 @@
+{
+  "name": "arunika_integrated",
+  "version": "1.0.0",
+  "description": "1. Ekstrak folder ini. 2. Buka folder `arunika_integrated` di VS Code (File → Open Folder). 3. Pasang ekstensi **Live Server** jika belum ada. 4. Klik kanan `index.html` → **Open with Live Server**. 5. Gunakan navigasi website untuk berpindah halaman.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinatatata82-collab/arunika-crumbs-brew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rinatatata82-collab/arunika-crumbs-brew/issues"
+  },
+  "homepage": "https://github.com/rinatatata82-collab/arunika-crumbs-brew#readme",
+  "devDependencies": {
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.11",
+    "tailwindcss": "^3.4.19"
+  }
+}
